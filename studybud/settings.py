@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djapp',
         'USER': 'kirti',
         'PASSWORD': 'Solana@123',
